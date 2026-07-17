@@ -30,6 +30,8 @@ predict_backend/
 └── upload_huggingface.py # Automated script to push trained pipelines to Hugging Face
 ```
 
+## 🛠️ Tech Stack & Architecture
+
 ```text
  ┌──────────────────────┐        ┌──────────────────────┐        ┌──────────────────────┐
  │  HTTP POST Request   │ ────>  │ FastAPI REST Engine  │ ────>  │  Hugging Face Hub    │
