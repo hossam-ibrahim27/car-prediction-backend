@@ -53,6 +53,8 @@ Calculates the estimated price for a car based on input features.
   "transmission": "Automatic",
   "engine_size": 2.0
 }
+
+
 #### Response (200 OK)
 ```json
 {
