@@ -45,7 +45,6 @@ An end-to-end Machine Learning web application engineered to predict used car pr
 Calculates the estimated price for a car based on input features.
 
 #### Request Body
-```json
 {
   "year": 2018,
   "mileage": 85000,
@@ -54,9 +53,7 @@ Calculates the estimated price for a car based on input features.
   "engine_size": 2.0
 }
 
-
 #### Response (200 OK)
-```json
 {
   "status": "success",
   "predicted_price": 14500.00,
